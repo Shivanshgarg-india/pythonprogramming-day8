@@ -1,0 +1,12 @@
+import numpy as np
+raw_data = open(filename, 'rb')
+data = np.loadtxt(raw_data , delimiter = ",")
+print(np.aminn(data))
+print(np.amax(data))
+print(np.mean(data))
+print(np.mean(data))
+print(np.median(data))
+print(np.std(data))
+print(np.ptp(data))
+print(np.average(data))
+print(np.percentile(data))
